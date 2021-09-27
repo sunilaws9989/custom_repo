@@ -4,7 +4,7 @@
 
 	<groupId>com.mt</groupId>
 	<artifactId>maven-stanalone-application</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>maven-stanalone-application</name>
@@ -18,9 +18,9 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
- 		<sonar.host.url>http://13.232.19.90:9000/</sonar.host.url>
-                <sonar.login>admin</sonar.login>
-                <sonar.password>admin@123</sonar.password>
+		<sonar.host.url>http://35.154.242.68:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -72,22 +72,4 @@
 	  </plugins>
 	</build>
 	
-    <distributionManagement>
-
-            <repository>
-              <id>nexus</id>
-              <name>Mithun Technologies Releases Nexus Repository</name>
-              <url>http://13.233.119.201:8080/nexus/repository/wallmart-release/</url>
-            </repository>
-
-            <snapshotRepository>
-              <id>nexus</id>
-              <name>Mithun Technologies Snapshot Nexus Repository </name>
-              <url>http://13.233.119.201:8080/nexus/repository/wallmart-snapshot/</url>
-            </snapshotRepository>
-
-        </distributionManagement>
-
-
 </project>
-
